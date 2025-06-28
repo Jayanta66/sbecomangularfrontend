@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider; ng serve --ssl=true --sslKey=./ssl-localhost/localhost.key --sslCert=./ssl-localhost/localhost.crt",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider; ng build",
+    "start": "ng serve --ssl=true --sslKey=./ssl-localhost/localhost.key --sslCert=./ssl-localhost/localhost.crt",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
